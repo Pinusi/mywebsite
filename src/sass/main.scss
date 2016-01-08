@@ -1,0 +1,17 @@
+
+$rem: 16;
+// $default_font: "Gotham Rounded SSm A", "Gotham Rounded SSm B";
+$default_font_size: 16;
+$default_line_height: 24;
+$default_font_weight: 700;
+$default_font_color: #000;
+
+/* Imported */
+@import "partials/mixins";
+
+/* Commons */
+@import "partials/colors";
+@import "partials/fonts";
+
+/* Components */
+@import "partials/app";

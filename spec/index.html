@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Test</title>
+    <link rel="stylesheet" href="../src/vendor/mocha/mocha.css" />
+</head>
+
+<body>
+
+    <div id="mocha"></div>
+    <div id="test_html"></div>
+
+    <!-- Vendor Libraries -->
+    <script src="../src/vendor/mocha/mocha.js"></script> 
+    <script src="../src/vendor/chai/chai.js"></script>
+    <script src="../src/vendor/sinon/lib/sinon.js"></script>
+
+    <!-- Setup -->
+    <script>mocha.setup('bdd')</script>
+    <script>expect = chai.expect</script>
+
+    <!-- Tests -->
+    <script src="./test.min.js"></script>
+
+</body>
+
+</html>
