@@ -1,0 +1,16 @@
+<p>freshly baked</p>
+<% _.each(projects, function(project) { %>
+	<div class="project">
+		<div class="wrapper">
+			<div class="cover">
+				<p><%= project.title %></p>
+				<p><%= project.date %></p>
+				<p><%= project.role %></p>
+				<p><%= project.company %></p>
+			</div>
+			<div class="description">
+				<p><%= project.desc %></p>
+			</div>
+		</div>
+	</div>
+<% }); %>

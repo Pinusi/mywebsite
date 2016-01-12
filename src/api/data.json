@@ -1,285 +1,75 @@
 {
-	"menu": [
-		"What</br>is a</br><span class='red'>Ready</br>Business?</span>",
-		"How a</br><span class='red'>Ready</br>Business</span></br>is better",
-		"Solutions</br>that can</br>make you</br><span class='red'>Ready</span>"
-	],
-	"chapters": [
+	"home":{
+		"title": "Front-End Developer, Mad Scientist",
+		"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+	},
+	"projects": [
 		{
-			"title": "What is a <span class='red'>Ready Business?</span>",
-			"slides": [
-				{
-					"main_par": "In today’s business world, customers and employees are demanding more and there’s a hectic pace of change. So businesses need to be able to adapt and be ready for anything.</br></br>It means making smart decisions about the way you work and using innovative technology to engage with your customers the way they want to. Being Ready means seizing opportunities now and maximising your potential.",
-					"sub_par": "What <span class='red'>Ready Businesses</span> do.",
-					"steps": [
-						"They’re good at</br> listening to and</br> understanding</br> customers",
-						"They value</br>their people</br> and partners",
-						"They exploit</br> technology</br> to the full",
-						"They’re always</br> looking ahead"
-					]
-				},
-				{
-					"main_par": "They’re good at listening to and understanding their customers,",
-					"sub_par": "responding quickly across different channels, including mobile and social.",
-					"chart": {
-						"issue_1": "Ready Businesses",
-						"issue_2": "Businesses that</br>aren’t Ready",
-						"data":[
-							{
-								"perc_1": "56%",
-								"image": "/assets/images/chapter_1/chart_1_1.jpg",
-								"perc_2": "23%",
-								"desc": "believe smart mobile devices</br>are a key way of interacting"
-							},
-							{
-								"perc_1": "63%",
-								"image": "/assets/images/chapter_1/chart_1_2.jpg",
-								"perc_2": "36%",
-								"desc": "believe responding to</br>customers quickly is critical"
-							},
-							{
-								"perc_1": "77%",
-								"image": "/assets/images/chapter_1/chart_1_3.jpg",
-								"perc_2": "58%",
-								"desc": "attach greater importance to listening</br>to and understanding their customers</br><span class='source'>Source: Vodafone 2014, The Business Readiness Advantage Report</span>"
-							}
-						]
-					}
-				},
-				{
-					"main_par": "They value their people and partners",
-					"sub_par":"and use technology to work efficiently.",
-					"chart": {
-						"issue_1": "Ready Businesses",
-						"issue_2": "Businesses that</br>aren’t Ready",
-						"data":[
-							{
-								"perc_1": "41%",
-								"image": "/assets/images/chapter_1/chart_2_1.jpg",
-								"perc_2": "15%",
-								"desc": "using technology to empower</br>employees to work more flexibly"
-							},
-							{
-								"perc_1": "38%",
-								"image": "/assets/images/chapter_1/chart_2_2.jpg",
-								"perc_2": "16%",
-								"desc": "using technology to help them</br>work more collaboratively"
-							},
-							{
-								"perc_1": "42%",
-								"image": "/assets/images/chapter_1/chart_2_3.jpg",
-								"perc_2": "14%",
-								"desc": "are more ready to work in partnership with</br>other companies and get proactive advice</br><span class='source'>Source: Vodafone 2014, The Business Readiness Advantage Report</span>"
-							}
-						]
-					}
-				},
-				{
-					"main_par": "They exploit technology to the full",
-					"sub_par":"to increase efficiency and performance.",
-					"chart": {
-						"issue_1": "Ready Businesses",
-						"issue_2": "Businesses that</br>aren’t Ready",
-						"data":[
-							{
-								"perc_1": "22%",
-								"image": "/assets/images/chapter_1/chart_3_1.jpg",
-								"perc_2": "8%",
-								"desc": "use social media to maximise</br>customer insight"
-							},
-							{
-								"perc_1": "21%",
-								"image": "/assets/images/chapter_1/chart_3_2.jpg",
-								"perc_2": "8%",
-								"desc": "allow employees to bring</br>their own device to work</br><span class='source'>Source: Vodafone 2014, The Business Readiness Advantage Report</span>"
-							}
-						]
-					}
-				},
-				{
-					"main_par": "They’re always looking ahead",
-					"sub_par":"and use IT to innovate and improve their business model.",
-					"chart": {
-						"issue_1": "Ready Businesses",
-						"issue_2": "Businesses that</br>aren’t Ready",
-						"data":[
-							{
-								"perc_1": "53%",
-								"image": "/assets/images/chapter_1/chart_4_1.jpg",
-								"perc_2": "31%",
-								"desc": "are continuously optimising</br>the way they operate"
-							},
-							{
-								"perc_1": "56%",
-								"image": "/assets/images/chapter_1/chart_4_2.jpg",
-								"perc_2": "25%",
-								"desc": "are continuously innovating</br>business models"
-							},
-							{
-								"perc_1": "47%",
-								"image": "/assets/images/chapter_1/chart_4_3.jpg",
-								"perc_2": "22%",
-								"desc": "are using IT for</br>business innovation</br><span class='source'>Source: Vodafone 2014, The Business Readiness Advantage Report</span>"
-							}
-						]
-					}
-				}
-			]
+			"title": "titolo",
+			"description": "desc",
+			"image": "",
+			"link": "",
+			"date": "data",
+			"role": "ruolo",
+			"company": "societa"
 		},
 		{
-			"title": "How a <span class='red'>Ready Business</span> is better",
-			"slides": [
-				{
-					"titles": [
-						"Better customer service",
-						"Timmy’s Pies"
-					],
-					"text": [
-						"A <span class='red'>Ready Business</span> is always available to its customers across all channels</br>and can provide a more personalised service based on how they use their data.",
-						"quickly turned from one man’s hobby, to a serious business employing five<br /> people with stockists throughout London. <span class='bold'>Vodafone’s One Net Express</span> allows<br /> him and his team to be reachable anywhere and it’s turbocharged their social<br /> media activity."
-					],
-					"images": [
-						"/assets/images/chapter_2/img_1.jpg"
-					]
-				},
-				{
-					"titles": [
-						"Better connected employees",
-						"Aspen Concepts"
-					],
-					"text": [
-						"A <span class='red'>Ready Business</span> provides its people with the right technology to help them<br /> work more flexibly, be more productive on the go and find the best solutions for<br /> the business.",
-						"shop fitting and joinery service has customers all over the country and 70% of<br /> its 100 employees work offsite. Aspen chose <span class='bold'>Vodafone One Net Business</span> to<br /> consolidate communications. It reduced costs, cut installation times in half<br /> and helped bring in 30% more business."
-					],
-					"images": [
-						"/assets/images/chapter_2/img_3.jpg"
-					]
-				},
-				{
-					"titles": [
-						"Better operational agility",
-						"Chalk Social",
-						"Diamond Logistics"
-					],
-					"text": [
-						"A <span class='red'>Ready Business</span> uses more flexible communications to respond quickly<br /> to changing market conditions and new opportunities. It uses technology to<br /> automate as much as possible.",
-						"a start-up digital media agency, is using <span class='bold'>Vodafone One Net Express</span>. With smartphones that act as a desk phone and a mobile, it’s delivering significant<br /> cost savings and helping staff to meet more clients face to face, while never<br /> missing a call or opportunity.",
-						"the UK’s fastest growing logistics provider, uses <span class='bold'>Vodafone One Net Business</span> to integrate its landline and mobile phones. One central number for clients backed up by intelligent call routing means they can react more quickly to opportunities 24/7/365 and enhance work/life balance of their employees."
-					],
-					"images": [
-						"/assets/images/chapter_2/img_5.jpg",
-						"/assets/images/chapter_2/img_6.jpg"
-					]
-				}
-			]
+			"title": "",
+			"description": "",
+			"image": "",
+			"link": "",
+			"date": "",
+			"role": "",
+			"company": ""
 		},
 		{
-			"title": "Solutions that can make you <span class='red'>Ready</span>",
-			"slides": [
-				{
-					"text": [
-						"<span class='bold'>We have everything from the latest handset or plan customised to your needs, to enhanced support and solutions to help you grow.</span>",
-						"A <span class='red'>Ready Business</span> has a bespoke plan",
-						"<span class='bold'>Vodafone Business Premier</span> plans are specifically designed to let you work how, when and where you need. They’re available on our <span class='bold'>ultrafast 4G</span> network with five different tiers to choose from."
-					],
-					"bullets": [
-						"Benefit from free calls back to UK landlines starting 01, 02 or 03, and UK mobiles starting 07, from anywhere in our <span class='bold'>Europe Zone.</span>",
-						"<span class='bold'>Business Premier Plan</span> 2, 3, 4 or <span class='bold'>Business Premier Traveller</span> give you 100 international minutes each month.",
-						"A dedicated UK-based <span class='bold'>Prime Contact</span> for personalised service and support both over the phone and via Live Chat.",
-						"You get <span class='bold'>Vodafone Business Insurance</span> with Business Premier 3 and above."
-					],
-					"images": [
-						"/assets/images/chapter_3/img_8.jpg",
-						"/assets/images/chapter_3/img_9.jpg",
-						"/assets/images/chapter_3/img_10.jpg",
-						"/assets/images/chapter_3/img_11.jpg"
-					]
-				},
-				{
-					"text": [
-						"A <span class='red'>Ready Business</span> has dedicated support ",
-						"With <span class='bold'>Vodafone Prime Contact</span>, your named expert takes ownership of any issue you may have, seeing it through to resolution.",
-						"<span class='bold'>Add Prime Contact</span> to your account today for <span class='red'>£3 a person per month,</span> or get it included with our <span class='bold'>Vodafone Business Premier plans.</span>"
-					],
-					"bullets": [
-						"<span class='bold'>Personal service</span> for business customers",
-						"<span class='bold'>Rapid response</span> saving customers time",
-						"<span class='bold'>Issue solving</span> we see problems through to resolution",
-						"<span class='bold'>Maximum support</span> contactable by call or live chat",
-						"<span class='bold'>Expert advice</span> in communications"
-					],
-					"images": [
-						"/assets/images/chapter_3/img_1.jpg"
-					]
-				},
-				{
-					"text": [
-						"A <span class='red'>Ready Business</span> has worry-free roaming",
-						"Vodafone’s <span class='bold'>EuroTraveller</span> and <span class='bold'>WorldTraveller</span> options help your employees work how, when and where they need to.",
-						"Available as an extra to a range of business plans, <span class='red'> £3 per day</span> for Europe and <span class='red'>£5 per day</span> for the WorldTraveller Zone.</br></br>Or, included with <span class='bold'>Vodafone Business Premier plans.</span>"
-					],
-					"bullets": [
-						"Take your UK calls, texts and data with you to <span class='bold'>98 countries</span> around<br /> the world and the service will cover more countries in the near future",
-						"We’re the only operator to allow <span class='bold'>uncapped and unthrottled data</span><br /> so your people can be as effective abroad as they are at home"
-					],
-					"images": [
-						"/assets/images/chapter_3/img_2.jpg",
-						"/assets/images/chapter_3/img_3.jpg"
-					]
-				},
-				{
-					"text": [
-						"A <span class='red'>Ready Business</span> never misses an opportunity",
-						"Your employees’ time is precious and your customers’ time is too. <span class='bold'>Vodafone One Net</span> is a fully integrated communications service that means you’ll never miss a business call again. You can work better, from anywhere, across a range of devices – all from one provider."
-					],
-					"steps": [
-						"One Net</br>Express",
-						"One Net</br>Business"
-					],
-					"sub_steps": [
-						"0-9 employees",
-						"10+ employees"
-					],
-					"images": [
-						"/assets/images/chapter_3/img_4.jpg",
-						"/assets/images/chapter_3/img_5.jpg"
-					]
-				},
-				{
-					"text": [
-						"One Net Express",
-						"<span class='bold'>Gives you a virtual landline on your mobile, so you don’t need to be in the office to pick up calls.</span>",
-						"One Net Business"
-					],
-					"bullets": [
-						"<span class='bold'>Expand your business</span> into new areas without the costs and risks of taking on new premises",
-						"Create virtual landline numbers with different area codes and bring<br /> in new customers looking for a local service",
-						"A range of Intelligent call management features to ensure you can <span class='bold'>be<br /> more responsive</span> to your customers",
-						"Easy implementation across any mobile device. <span class='bold'>One provider, one bill</span>"
-					],
-					"images": [
-						"/assets/images/chapter_3/img_6.jpg"
-					]
-				},
-				{
-					"text": [
-						"One Net Business",
-						"<span class='bold'>The UK’s first cloud-based service to deliver landline, mobile and desktop communications all in one system.</span>",
-						"One Net Express"
-					],
-					"bullets": [
-						"One number that appears to your customers whichever device you use and one voicemail for all your devices",
-						"Add <span class='bold'>One Net Collaboration.</span> It combines <span class='bold'>One Net Business</span> with <span class='bold'>Microsoft Office 365</span> to let you answer calls on your fixed phone,<br /> mobile, tablet or computer",
-						"Monitor the call availability of colleagues so there’s always someone<br /> to answer calls",
-						"Easy self-management. New users, functionality and sites can be<br /> added virtually. Individual users can manage their own calls and profiles",
-						"Ongoing updates so you’ll always have the latest technology"
-					],
-					"images": [
-						"/assets/images/chapter_3/img_7.jpg"
-					]
-				}
-			]
+			"title": "",
+			"description": "",
+			"image": "",
+			"link": "",
+			"date": "",
+			"role": "",
+			"company": ""
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "",
+			"link": "",
+			"date": "",
+			"role": "",
+			"company": ""
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "",
+			"link": "",
+			"date": "",
+			"role": "",
+			"company": ""
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "",
+			"link": "",
+			"date": "",
+			"role": "",
+			"company": ""
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "",
+			"link": "",
+			"date": "",
+			"role": "",
+			"company": ""
 		}
 	],
-	"footer": "Find out more from our in-store Business Advisers today."
+	"skills": {
+		"good": [],
+		"excellent": []
+	}
 }

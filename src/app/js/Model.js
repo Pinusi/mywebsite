@@ -5,7 +5,7 @@ define(['jquery', 'q'],
       function model() {
         var props = {};
 
-        this.getJSON = function() {
+        this.loadJSON = function() {
           var loadCompleated = Q.defer();
           var path = window.relativePath ? window.relativePath : '..';
 
@@ -23,6 +23,10 @@ define(['jquery', 'q'],
               });
 
           return loadCompleated.promise;
+        };
+
+        this.getData = function(){
+          return props.data;
         };
       }
 

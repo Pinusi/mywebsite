@@ -24,17 +24,17 @@
       var view = new View();
       var controller = new Controller(model,view);
 
-      // model.getJSON().then(function() {
-      //     return view.init(model.getDataForInit());
-      //   })
-      //   .then(function() {
-      //     controller.init();
-      //     controller.attachEvents();
-      //   })
-      //   .catch(function(error) {
-      //     console.log(error);
-      //   })
-      //   .done();
+      model.loadJSON().then(function() {
+        return view.render(model.getData());
+      })
+        // .then(function() {
+        //   controller.init();
+        //   controller.attachEvents();
+        // })
+      .catch(function(error) {
+        console.log(error);
+      })
+      .done();
     });
 
 }());
