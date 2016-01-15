@@ -121,11 +121,11 @@ gulp.task('favicon', function() {
     .pipe(connect.reload());
 });
 
-// gulp.task('fonts', function() {
-//   return gulp.src(folders.src + '/assets/fonts/{,*/}*.*')
-//     .pipe(gulp.dest(folders.build + '/assets/fonts/'))
-//     .pipe(connect.reload());
-// });
+gulp.task('fonts', function() {
+  return gulp.src(folders.src + '/assets/fonts/{,*/}*.*')
+    .pipe(gulp.dest(folders.build + '/assets/fonts/'))
+    .pipe(connect.reload());
+});
 
 gulp.task('compile_tests', function() {
   return gulp.src(folders.test + '/none') //hack for requirejs
@@ -184,7 +184,7 @@ gulp.task('build', ['clean'], function() {
   gulp.start('all');
 });
 
-gulp.task('all', ['styles', 'scripts','html', 'api', 'images', 'favicon'], function() {
+gulp.task('all', ['styles', 'scripts','html', 'api', 'fonts', 'images', 'favicon'], function() {
   // gulp.start('manifest');
   gulp.start('test');
 });

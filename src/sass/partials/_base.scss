@@ -76,6 +76,14 @@ header{
 .projects{
 	@include flex-margin(0,0,0,20);
 
+	.title{
+		font-family: 'Open Sans', sans-serif;
+			font-weight: 600;
+			text-transform: uppercase;
+			@include font-dimensions(18,27);
+			@include flex-margin(10,0,20,0);
+	}
+
 	.content{
 		@include flex-margin(20,20,0,20);
 		overflow: hidden;
@@ -99,6 +107,34 @@ header{
 			.description{
 				display: none;
 			}
+
+			.cover{
+				width: 100%;
+    			height: 100%;
+    			background-size: cover;
+
+    			.text{
+    				left: 10%;
+					bottom: 10%;
+					position: absolute;
+					color: #fff;
+					width: 60%;
+
+					&.black{
+						color: #000;
+					}
+    			}
+
+    			.pj_title{
+					font-weight: 600;
+					@include font-dimensions(24,29);
+					letter-spacing: 0.05rem;
+    			}
+
+    			.pj_date{
+					@include font-dimensions(12,14);
+    			}
+			}
 		}
 	}
 }
@@ -107,7 +143,7 @@ header{
 	@include flex-margin(0,20,20,20);
 
 	.content{
-		background-color: $pink;
+		background-color: $cyan;
 		@include flex-height(400);
 		@include flex-padding(40,40,40,40);
 
@@ -116,6 +152,7 @@ header{
 			font-weight: 600;
 			text-transform: uppercase;
 			@include font-dimensions(18,27);
+			color: #fff;
 		}
 	}
 }
@@ -123,5 +160,47 @@ header{
 footer{
 	background-color: $dark-pink;
 	width: 100%;
-	@include flex-padding(20,20,20,20);
+	@include box-sizing(border-box);
+	@include flex-padding(40,20,40,20);
+	overflow: hidden;
+
+	.hello{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 600;
+		text-transform: uppercase;
+		text-align: center;
+		@include font-dimensions(21,27);
+		color: #fff;
+	}
+
+	.email{
+		text-align: center;
+		@include font-dimensions(17,35);
+		
+		a{
+			text-decoration: none;
+			color: #000;
+		}
+	}
+
+	ul {
+		list-style: none;
+		text-align: center;
+		position: relative;
+		left: 50%;
+		float: left;
+		
+		li{
+			float: left;
+			position: relative;
+			right: 50%;
+			@include flex-margin(0,10,0,10);
+
+			a{
+				@include font-dimensions(27,50);
+				text-decoration: none;
+				color: $grey;
+			}
+		}
+	}
 }

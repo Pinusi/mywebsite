@@ -5,67 +5,24 @@
 	},
 	"projects": [
 		{
-			"title": "titolo",
+			"title": "Comparte Sonrisas",
+			"theme": "white",
 			"description": "desc",
-			"image": "",
+			"image": "assets/images/pj_mondelez_8.jpg",
 			"link": "",
-			"date": "data",
-			"role": "ruolo",
-			"company": "societa"
+			"date": "Aug. 2015 - Sept. 2015",
+			"role": "Front-End Developer",
+			"company": "Geometry Global"
 		},
 		{
-			"title": "",
-			"description": "",
-			"image": "",
+			"title": "Metlife Retiremet",
+			"theme": "black",
+			"description": "desc",
+			"image": "assets/images/pj_metlife_4.jpg",
 			"link": "",
-			"date": "",
-			"role": "",
-			"company": ""
-		},
-		{
-			"title": "",
-			"description": "",
-			"image": "",
-			"link": "",
-			"date": "",
-			"role": "",
-			"company": ""
-		},
-		{
-			"title": "",
-			"description": "",
-			"image": "",
-			"link": "",
-			"date": "",
-			"role": "",
-			"company": ""
-		},
-		{
-			"title": "",
-			"description": "",
-			"image": "",
-			"link": "",
-			"date": "",
-			"role": "",
-			"company": ""
-		},
-		{
-			"title": "",
-			"description": "",
-			"image": "",
-			"link": "",
-			"date": "",
-			"role": "",
-			"company": ""
-		},
-		{
-			"title": "",
-			"description": "",
-			"image": "",
-			"link": "",
-			"date": "",
-			"role": "",
-			"company": ""
+			"date": "Sept. 2015 - Nov. 2015",
+			"role": "Front-End Developer",
+			"company": "Geometry Global"
 		}
 	],
 	"skills": {

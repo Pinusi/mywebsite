@@ -1,14 +1,16 @@
-<p>freshly baked</p>
+<p class="title">freshly baked</p>
 <% _.each(projects, function(project) { %>
 	<div class="project">
 		<div class="wrapper">
-			<div class="cover">
-				<p><%= project.title %></p>
-				<p><%= project.date %></p>
-				<p><%= project.role %></p>
-				<p><%= project.company %></p>
+			<div style="background-image:url('<%= project.image %>')" class="cover">
+				<div class="text <%= project.theme %>">
+					<p class="pj_title"><%= project.title %></p>
+					<p class="pj_date"><%= project.date %></p>
+				</div>
 			</div>
 			<div class="description">
+				<p><%= project.role %></p>
+				<p><%= project.company %></p>
 				<p><%= project.desc %></p>
 			</div>
 		</div>
